@@ -78,3 +78,22 @@ viewpromocionesppuni AS
 select m.idpromociones, p.idproducto, p.idcategoria, p.nombre, p.image, p.precio, m.descuento, p.stock, p.estado
 from promociones m 
 inner join producto p on p.idproducto = m.idproducto;
+
+
+/*view de las promociones por unidades*/
+
+CREATE VIEW 
+viewpromocionesppuni AS 
+select m.idpromociones, 
+p.idproducto, p.idcategoria, p.nombre, p.image, p.precio, m.descuento, p.stock, p.estado 
+from promociones m 
+inner join producto p on p.idproducto = m.idproducto;
+
+/*view de las promociones por unidades*/
+
+CREATE VIEW 
+viewpromocionesppuni AS 
+select m.idpromociones, p.idproducto, p.idcategoria,
+ p.nombre, p.image, p.precio, m.descuento, p.stock, p.estado
+ from promociones m 
+inner join producto p on p.idproducto = m.idproducto;
