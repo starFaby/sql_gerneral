@@ -46,7 +46,11 @@ select persona.idpersona, persona.cedula, persona.nombres,
 
 
 
+SELECT MAX(factura.numfactura)+1 AS NRO_FACTURA  FROM factura;
 
+select * from factura;
+
+SELECT MAX(factura.idfactura)+1 AS idfactura  FROM factura;
 
 
 
