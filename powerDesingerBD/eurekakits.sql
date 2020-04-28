@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     4/27/2020 08:53:59                           */
+/* Created on:     4/27/2020 23:15:48                           */
 /*==============================================================*/
 
 
@@ -34,7 +34,7 @@ drop table if exists transferenciabancaria;
 create table categoria
 (
    idcategoria          int not null auto_increment,
-   nombre               int not null,
+   nombre               char(50) not null,
    image                char(50) not null,
    estado               char(1) not null,
    created_at           date not null,
@@ -46,15 +46,15 @@ create table categoria
 /*==============================================================*/
 create table detalleventas
 (
-   iddetalleventa       int not null auto_increment,
-   idfactura            int not null,
+   iddetalleventas      int not null auto_increment,
    idproducto           int not null,
-   cantidad             int not null,
-   precio               decimal(7,2) not null,
-   total                decimal(7,2) not null,
-   estado               char(1) not null,
-   created_at           date not null,
-   primary key (iddetalleventa, idproducto, idfactura)
+   idfactura            int not null,
+   cantidad             int,
+   precio               decimal(7,2),
+   total                decimal(7,2),
+   estado               char(1),
+   created_at           date,
+   primary key (iddetalleventas)
 );
 
 /*==============================================================*/
@@ -117,7 +117,7 @@ create table formapago
 (
    idformapago          int not null auto_increment,
    idfactura            int,
-   nombre               int not null,
+   nombre               char(50) not null,
    estado               char(1) not null,
    created_at           date not null,
    primary key (idformapago)
@@ -163,7 +163,7 @@ create table producto
 (
    idproducto           int not null auto_increment,
    idcategoria          int,
-   nombre               int not null,
+   nombre               char(50) not null,
    image                char(50) not null,
    precio               decimal(7,2) not null,
    stock                int not null,

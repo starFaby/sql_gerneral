@@ -21,7 +21,7 @@ inner join direccion on persona.iddireccion = direccion.iddireccion;
 /*vista detalle_venta ==> producto*/
 CREATE VIEW 
 viewdetalleventadvp AS 
-select dv.iddetalleventa, dv.idfactura, p.nombre as idproducto, 
+select dv.iddetalleventas, dv.idfactura, p.nombre as idproducto, 
 dv.cantidad, dv.precio, dv.total, dv.estado from  detalleventas dv
 inner join producto p on p.idproducto = dv.idproducto;
 
@@ -48,7 +48,6 @@ inner join producto p on p.idproducto = m.idproducto;
 
 CREATE VIEW 
 viewpromocionesppuni AS 
-select m.idpromociones, 
-p.idproducto, p.idcategoria, p.nombre, p.image, p.precio, m.dto, p.stock, p.estado 
+select m.idpromociones, p.idproducto, p.idcategoria, p.nombre, p.image, p.precio, m.dto, p.stock, p.estado 
 from promociones m 
 inner join producto p on p.idproducto = m.idproducto;
