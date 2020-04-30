@@ -51,3 +51,41 @@ viewpromocionesppuni AS
 select m.idpromociones, p.idproducto, p.idcategoria, p.nombre, p.image, p.precio, m.dto, p.stock, p.estado 
 from promociones m 
 inner join producto p on p.idproducto = m.idproducto;
+
+
+
+/*para visualizar que cada persona tiene su propia factura*/
+
+CREATE VIEW 
+viewpersonafactura AS
+select p.idpersona, f.idfactura, f.numfactura 
+from factura f 
+
+inner join persona p on p.idpersona = f.idpersona;
+
+
+/*selecciona para saber si es efentivo paypapal o transferencia*/
+
+CREATE VIEW 
+viewtipopago AS
+
+select * from tipopago;
+
+/*pago de factura de tipo paypal solo ver esas*/
+
+CREATE VIEW 
+viewpagofactpaypal AS 
+
+select fp.idtipopago, p.idpersona, f.idfactura, f.numfactura 
+from formapago fp
+
+inner join factura f on f.idfactura = fp.idfactura
+
+inner join persona p on p.idpersona = f.idpersona;
+
+
+
+
+
+
+

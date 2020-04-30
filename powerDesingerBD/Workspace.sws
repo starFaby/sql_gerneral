@@ -6,6 +6,7 @@
 	<Local Expanded="Yes">
 		<Model ID="{93ED15B3-AAC4-4B6C-AE18-F8518EE1117B}" Name="Conceptual eurekakitsdb" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="Conceptual eurekakitsdb.cdm"/>
 		<Model Expanded="Yes" ID="{1BF3EDF2-00C5-4D1F-96E1-50B9D218A03B}" Name="Logicaleurekakitsdb" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="Logicaleurekakitsdb.ldm"/>
+		<Model Expanded="Yes" ID="{146A628D-49DD-4DA3-BD22-3AB8FB091738}" Name="Physicaleurekakitsdb" Selected="Yes" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Physicaleurekakitsdb.pdm"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
