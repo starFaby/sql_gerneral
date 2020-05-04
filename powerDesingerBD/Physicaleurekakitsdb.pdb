@@ -4575,7 +4575,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o14">
-<a:Rect>((-64811,9253), (-24586,20728))</a:Rect>
+<a:Rect>((-64811,9226), (-24586,20728))</a:Rect>
 <a:ListOfPoints>((-28336,20328),(-28336,10016),(-64411,10016))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -4615,7 +4615,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o20">
-<a:Rect>((-28586,19853), (2664,21413))</a:Rect>
+<a:Rect>((-28586,19853), (2664,21392))</a:Rect>
 <a:ListOfPoints>((2264,20743),(-12682,20743),(-12682,20478),(-28186,20478))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>

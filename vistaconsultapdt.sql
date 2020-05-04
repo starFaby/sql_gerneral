@@ -58,7 +58,9 @@ inner join producto p on p.idproducto = m.idproducto;
 
 CREATE VIEW 
 viewpersonafactura AS
-select p.idpersona, f.idfactura, f.numfactura 
+
+select p.idpersona, f.idfactura, f.numfactura, f.estado
+
 from factura f 
 
 inner join persona p on p.idpersona = f.idpersona;
@@ -71,17 +73,29 @@ viewtipopago AS
 
 select * from tipopago;
 
-/*pago de factura de tipo paypal solo ver esas*/
+/*pago de factura de tipo paypal, transferencia bancaria, efectivo, ver por separado tipo tipo de pago*/
+
 
 CREATE VIEW 
-viewpagofactpaypal AS 
+viewpagofactptbe AS 
 
-select fp.idtipopago, p.idpersona, f.idfactura, f.numfactura 
+select fp.idtipopago, p.idpersona, f.idfactura, f.numfactura, fp.estado
+
 from formapago fp
 
 inner join factura f on f.idfactura = fp.idfactura
+inner 
+join persona p on p.idpersona = f.idpersona;
 
-inner join persona p on p.idpersona = f.idpersona;
+
+/*visualizando la factura  y forma de pago para ser visualizada en tipos de pagos*/
+
+CREATE VIEW 
+viewformapagopy AS
+
+select fp.idformapago, f.numfactura, f.total 
+from formapago fp 
+inner join factura f on f.idfactura = fp.idfactura;
 
 
 
