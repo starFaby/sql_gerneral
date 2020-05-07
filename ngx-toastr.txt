@@ -1,0 +1,5 @@
+// npm install ngx-toastr --save
+// npm install @angular/animations --save
+// I had the same issue. I've solve it by changing the toastr version 
+// in the package.json. I've used this "ngx-toastr": "^10.0.4", instead 
+// of this "ngx-toastr": "^12.0.0". And then npm i.
