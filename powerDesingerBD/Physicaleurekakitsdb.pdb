@@ -4535,7 +4535,7 @@ Shadow=0
 <a:PaperSource>-26976</a:PaperSource>
 <c:Symbols>
 <o:ReferenceSymbol Id="o6">
-<a:Rect>((41236,20567), (48660,42110))</a:Rect>
+<a:Rect>((44238,20567), (45883,42110))</a:Rect>
 <a:ListOfPoints>((44638,20967),(44638,32069),(45258,32069),(45258,41710))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -4575,7 +4575,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o14">
-<a:Rect>((-64811,9305), (-24586,20728))</a:Rect>
+<a:Rect>((-64811,9391), (-24586,20728))</a:Rect>
 <a:ListOfPoints>((-28336,20328),(-28336,10016),(-64411,10016))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -4595,7 +4595,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o17">
-<a:Rect>((44388,20492), (76793,22309))</a:Rect>
+<a:Rect>((44388,20492), (76793,22117))</a:Rect>
 <a:ListOfPoints>((76393,21717),(60280,21717),(60280,21117),(44788,21117))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -4615,7 +4615,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o20">
-<a:Rect>((-28586,19853), (2664,21424))</a:Rect>
+<a:Rect>((-28586,19853), (2664,21655))</a:Rect>
 <a:ListOfPoints>((2264,20743),(-12682,20743),(-12682,20478),(-28186,20478))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -4735,8 +4735,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o37">
-<a:Rect>((2238,-13231), (33954,3842))</a:Rect>
-<a:ListOfPoints>((33554,-12831),(17377,-12831),(17377,3069),(2863,3069),(2863,2442))</a:ListOfPoints>
+<a:Rect>((2463,-13231), (33954,3067))</a:Rect>
+<a:ListOfPoints>((33554,-12831),(17377,-12831),(17377,2442),(2863,2442))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>11184640</a:LineColor>
@@ -6386,16 +6386,18 @@ DAT 1588952593</a:History>
 </o:Column>
 <o:Column Id="o135">
 <a:ObjectID>C13BE58E-0771-4038-AD4D-3C279EFD1A16</a:ObjectID>
-<a:Name>numerofactura</a:Name>
-<a:Code>numerofactura</a:Code>
+<a:Name>numfactura</a:Name>
+<a:Code>numfactura</a:Code>
 <a:CreationDate>1588954197</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1588954197</a:ModificationDate>
+<a:ModificationDate>1588980153</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
 <a:History>ORG {25BFAC15-BD01-411E-800A-2D5FD07E79E9}
 DAT 1588954200
 ORG {91F36E2E-76B5-4535-80EA-2C5BFDADC813}
-DAT 1588952593</a:History>
+DAT 1588952593
+ATT NAME
+ATT CODE</a:History>
 <a:DataType>int</a:DataType>
 <a:Column.Mandatory>1</a:Column.Mandatory>
 </o:Column>
@@ -7596,14 +7598,16 @@ DAT 1588954200</a:History>
 </o:Column>
 <o:Column Id="o207">
 <a:ObjectID>F7709CC8-9B29-46B2-A719-41D5F0D86D98</a:ObjectID>
-<a:Name>etado</a:Name>
-<a:Code>etado</a:Code>
+<a:Name>estado</a:Name>
+<a:Code>estado</a:Code>
 <a:CreationDate>1588954197</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1588954197</a:ModificationDate>
+<a:ModificationDate>1588970762</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
 <a:History>ORG {C640D8BA-AFC9-46B1-BB94-9DB835110576}
-DAT 1588954200</a:History>
+DAT 1588954200
+ATT NAME
+ATT CODE</a:History>
 <a:DataType>char(1)</a:DataType>
 <a:Length>1</a:Length>
 <a:Column.Mandatory>1</a:Column.Mandatory>

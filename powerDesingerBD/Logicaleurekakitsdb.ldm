@@ -1599,7 +1599,7 @@ Shadow=0
 <a:PaperSource>-26976</a:PaperSource>
 <c:Symbols>
 <o:RelationshipSymbol Id="o6">
-<a:Rect>((40954,24886), (48303,38252))</a:Rect>
+<a:Rect>((43428,24886), (45828,38252))</a:Rect>
 <a:ListOfPoints>((44628,37852),(44628,25799))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4372</a:ArrowStyle>
@@ -1741,7 +1741,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o28">
-<a:Rect>((-2049,4900), (5375,15824))</a:Rect>
+<a:Rect>((-2087,4900), (5413,15824))</a:Rect>
 <a:ListOfPoints>((1663,15424),(1663,5326))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4371</a:ArrowStyle>
@@ -1761,7 +1761,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o31">
-<a:Rect>((-24999,-8788), (-4281,3195))</a:Rect>
+<a:Rect>((-25037,-8788), (-4281,3193))</a:Rect>
 <a:ListOfPoints>((-4681,2149),(-21362,2149),(-21362,-7875))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4371</a:ArrowStyle>
@@ -1781,7 +1781,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o34">
-<a:Rect>((-3285,-11150), (9014,-42))</a:Rect>
+<a:Rect>((-3323,-11150), (9051,-42))</a:Rect>
 <a:ListOfPoints>((2864,-442),(2864,-10237))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4371</a:ArrowStyle>
@@ -1821,7 +1821,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o40">
-<a:Rect>((-1149,4900), (15921,13645))</a:Rect>
+<a:Rect>((-1187,4900), (15921,13644))</a:Rect>
 <a:ListOfPoints>((15521,12599),(2863,12599),(2863,5326))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4371</a:ArrowStyle>
@@ -1851,6 +1851,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1871,6 +1872,7 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1891,6 +1893,7 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1931,6 +1934,7 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1951,6 +1955,7 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1971,6 +1976,7 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1991,6 +1997,7 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2071,6 +2078,7 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
+EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2970,14 +2978,16 @@ DAT 1588952593</a:History>
 </o:EntityAttribute>
 <o:EntityAttribute Id="o110">
 <a:ObjectID>25BFAC15-BD01-411E-800A-2D5FD07E79E9</a:ObjectID>
-<a:Name>numerofactura</a:Name>
-<a:Code>numerofactura</a:Code>
+<a:Name>numfactura</a:Name>
+<a:Code>numfactura</a:Code>
 <a:CreationDate>1588952589</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1588952589</a:ModificationDate>
+<a:ModificationDate>1588980129</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
 <a:History>ORG {91F36E2E-76B5-4535-80EA-2C5BFDADC813}
-DAT 1588952593</a:History>
+DAT 1588952593
+ATT NAME
+ATT CODE</a:History>
 <a:DataType>I</a:DataType>
 <a:LogicalAttribute.Mandatory>1</a:LogicalAttribute.Mandatory>
 </o:EntityAttribute>
@@ -3810,11 +3820,11 @@ ATT PIDTF</a:History>
 </o:EntityAttribute>
 <o:EntityAttribute Id="o164">
 <a:ObjectID>C640D8BA-AFC9-46B1-BB94-9DB835110576</a:ObjectID>
-<a:Name>etado</a:Name>
-<a:Code>etado</a:Code>
+<a:Name>estado</a:Name>
+<a:Code>estado</a:Code>
 <a:CreationDate>1588952691</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1588953181</a:ModificationDate>
+<a:ModificationDate>1588970735</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
 <a:DataType>A1</a:DataType>
 <a:Length>1</a:Length>
@@ -4289,12 +4299,12 @@ DAT 1588952593</a:History>
 <a:Code>conceptual_eurekakitsdb</a:Code>
 <a:CreationDate>1588952593</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1588952593</a:ModificationDate>
+<a:ModificationDate>1588980100</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
 <a:TargetModelURL>file:///C|/Users/fabystar/Documents/proyectos/TESIS/consultasEurekakits/powerDesingerBD/Conceptual eurekakitsdb.cdm</a:TargetModelURL>
 <a:TargetModelID>93ED15B3-AAC4-4B6C-AE18-F8518EE1117B</a:TargetModelID>
 <a:TargetModelClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetModelClassID>
-<a:TargetModelLastModificationDate>1588952593</a:TargetModelLastModificationDate>
+<a:TargetModelLastModificationDate>1588980100</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
