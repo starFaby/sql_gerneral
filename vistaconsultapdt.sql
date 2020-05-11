@@ -119,6 +119,19 @@ inner join factura f on f.idfactura = fp.idfactura
 inner join persona p on p.idpersona = f.idpersona;
 
 
+/*Para ver todos los productos vendidos de esa factura*/
+CREATE VIEW 
+viewFacturadv AS
+select dv.cantidad, p.nombre, dv.precio, dv.total, f.numfactura  from detalleventas dv
+inner join factura f on f.idfactura = dv.idfactura 
+inner join producto p on p.idproducto = dv.idproducto;/*  where f.numfactura = 4;*/
+
+/*Para ver el precio final de la factura*/
+CREATE VIEW 
+viewFacturaTotal AS
+select f.idfactura, f.numfactura, fp.idtipopago, f.subtotal,f.dto,f.iva, f.total from factura f
+inner join formapago fp on fp.idfactura = f.idfactura; /*  where f.numfactura = 4;*/
+
 
 
 
