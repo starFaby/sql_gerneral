@@ -6,7 +6,9 @@
 	<Local Expanded="Yes">
 		<Model ID="{93ED15B3-AAC4-4B6C-AE18-F8518EE1117B}" Loaded="No" Name="Conceptual eurekakitsdb" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="Conceptual eurekakitsdb.cdm"/>
 		<Model ID="{19797CF1-ED94-48E1-B7E1-508E9848568A}" Loaded="No" Name="Logicaleurekakitsdb" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="Logicaleurekakitsdb.ldm"/>
-		<Model Expanded="Yes" ID="{0D5F8609-A07C-4A41-B3E6-11C46C0A2F89}" Name="Physicaleurekakitsdb" Selected="Yes" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Physicaleurekakitsdb.pdm"/>
+		<Model Expanded="Yes" ID="{0D5F8609-A07C-4A41-B3E6-11C46C0A2F89}" Loaded="No" Name="Physicaleurekakitsdb" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Physicaleurekakitsdb.pdm"/>
+		<Model ID="{8DA6821F-6A91-4D9B-ACE7-5466751899AA}" Name=" Component Diagram_eurekakits" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Component Diagram_eurekakits.oom"/>
+		<Model Expanded="Yes" ID="{E294E401-1CA5-4105-AE54-E5A87E19CAA4}" Name="Use Cases eurekakits" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Use Cases eurekakits.oom"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>

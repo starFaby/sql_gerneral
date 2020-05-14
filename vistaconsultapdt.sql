@@ -4,6 +4,15 @@ drop view viewproductouni;
 drop view viewpromocionespp;
 drop view viewpromocionesppi;
 drop view viewPromocionesppuni;
+/*selecciona a la personas*/
+CREATE VIEW 
+viewpersona AS 
+SELECT p.idpersona, t.convencional, d.sector, p.cedula, 
+       p.nombres, p.apellidos, p.fechanacimiento, p.email, 
+       p.password, p.requerimiento, p.estado
+       FROM persona p
+       inner join direccion d on d.iddireccion = p.iddireccion
+       inner join telefono t on t.idtelefono = p.idtelefono;
 /*vista producto persona direccion telefono*/
 CREATE VIEW 
 personapdt AS 
@@ -124,13 +133,18 @@ CREATE VIEW
 viewFacturadv AS
 select dv.cantidad, p.nombre, dv.precio, dv.total, f.numfactura  from detalleventas dv
 inner join factura f on f.idfactura = dv.idfactura 
-inner join producto p on p.idproducto = dv.idproducto;/*  where f.numfactura = 4;*/
+inner join producto p on p.idproducto = dv.idproducto;
 
 /*Para ver el precio final de la factura*/
 CREATE VIEW 
 viewFacturaTotal AS
-select f.idfactura, f.numfactura, fp.idtipopago, f.subtotal,f.dto,f.iva, f.total from factura f
-inner join formapago fp on fp.idfactura = f.idfactura; /*  where f.numfactura = 4;*/
+select f.idfactura, f.numfactura, fp.idtipopago, f.subtotal,f.dto,f.iva, f.total, f.created_at from factura f
+inner join formapago fp on fp.idfactura = f.idfactura;
+
+/*muestra las categorias para que sea visulaizado para el administrador*/
+create view 
+viewcategoria as
+select * from categoria;
 
 
 
