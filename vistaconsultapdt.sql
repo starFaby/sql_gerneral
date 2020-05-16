@@ -146,6 +146,23 @@ create view
 viewcategoria as
 select * from categoria;
 
+/*vista report persona*/
+create view
+viewreportpersona as
+select * from persona;
+/*vista report categoria*/
+create view
+viewreportcategoria as
+select * from categoria;
+/*vista report producto*/
+create view
+viewreportproducto as
+select * from producto;
+/*vista report promociones*/
+create view
+viewreportpromociones as
+select * from promociones;
+
 
 
 
