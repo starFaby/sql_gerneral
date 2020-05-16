@@ -147,21 +147,31 @@ viewcategoria as
 select * from categoria;
 
 /*vista report persona*/
-create view
-viewreportpersona as
-select * from persona;
+CREATE VIEW 
+viewreportpersona AS 
+SELECT p.idpersona, t.convencional, d.sector, p.cedula, 
+       p.nombres, p.apellidos, p.fechanacimiento, p.email, 
+       p.password, p.requerimiento, p.estado
+       FROM persona p
+       inner join direccion d on d.iddireccion = p.iddireccion
+       inner join telefono t on t.idtelefono = p.idtelefono;
+
 /*vista report categoria*/
 create view
 viewreportcategoria as
 select * from categoria;
 /*vista report producto*/
-create view
+
+create view 
 viewreportproducto as
-select * from producto;
+select c.nombre as categoria, pr.nombre, pr.image, pr.stock, pr.estado, pr.created_at from producto pr
+inner join categoria c on c.idcategoria = pr.idcategoria;
+
 /*vista report promociones*/
 create view
 viewreportpromociones as
-select * from promociones;
+SELECT p.nombre, pr.dto, pr.fechainicio, pr.fechafin, pr.descripcion, pr.estado, pr.created_at FROM promociones pr
+inner join producto p on p.idproducto = pr.idproducto;
 
 
 
