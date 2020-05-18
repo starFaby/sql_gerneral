@@ -173,6 +173,12 @@ viewreportpromociones as
 SELECT p.nombre, pr.dto, pr.fechainicio, pr.fechafin, pr.descripcion, pr.estado, pr.created_at FROM promociones pr
 inner join producto p on p.idproducto = pr.idproducto;
 
+/*ver los productos con las categorias*/
+create view
+viewproducto as
+select p.idproducto, c.nombre as categoria, p.nombre, p.image, p.precio, p.stock, p.estado  from producto p
+inner join categoria c on c.idcategoria = p.idcategoria;
+
 
 
 
