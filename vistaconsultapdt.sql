@@ -27,6 +27,11 @@ direccion.callesecundaria, direccion.descripcion from persona
 inner join telefono on persona.idtelefono = telefono.idtelefono 
 inner join direccion on persona.iddireccion = direccion.iddireccion;
 
+/*Vista para mostrar el descuento de la factura*/
+create view 
+viewdto as
+select * from dto;
+
 /*vista detalle_venta ==> producto*/
 CREATE VIEW 
 viewdetalleventadvp AS 
