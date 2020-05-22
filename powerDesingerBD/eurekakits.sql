@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     5/8/2020 11:24:53                            */
+/* Created on:     5/22/2020 09:17:18                           */
 /*==============================================================*/
 
 
@@ -9,6 +9,8 @@ drop table if exists categoria;
 drop table if exists detalleventas;
 
 drop table if exists direccion;
+
+drop table if exists dto;
 
 drop table if exists efectivo;
 
@@ -54,7 +56,7 @@ create table detalleventas
    cantidad             int not null,
    precio               decimal(7,2) not null,
    total                decimal(7,2) not null,
-   etado                char(1) not null,
+   estado               char(1) not null,
    created_at           date not null,
    primary key (iddetalleventas)
 );
@@ -80,6 +82,18 @@ create table direccion
 );
 
 /*==============================================================*/
+/* Table: dto                                                   */
+/*==============================================================*/
+create table dto
+(
+   iddto                int not null auto_increment,
+   dto                  int not null,
+   estado               char(1) not null,
+   created_at           date not null,
+   primary key (iddto)
+);
+
+/*==============================================================*/
 /* Table: efectivo                                              */
 /*==============================================================*/
 create table efectivo
@@ -99,7 +113,7 @@ create table efectivo
 create table factura
 (
    idfactura            int not null auto_increment,
-   idpersona            int not null,
+   idpersona            int,
    numfactura           int not null,
    subtotal             decimal(7,2),
    dto                  int,
@@ -223,7 +237,7 @@ create table transferenciabancaria
 (
    idtransferenciabancaria int not null auto_increment,
    idformapago          int,
-   numerofactura        int not null,
+   numfactura           int not null,
    preciofactura        decimal(7,2) not null,
    image                char(100),
    estado               char(1) not null,
