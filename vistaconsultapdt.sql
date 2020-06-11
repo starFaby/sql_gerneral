@@ -33,10 +33,16 @@ viewdto as
 select * from dto;
 
 /*vista detalle_venta ==> producto*/
-CREATE VIEW 
+/*CREATE VIEW 
 viewdetalleventadvp AS 
 select dv.iddetalleventas, dv.idfactura, p.nombre as idproducto, 
 dv.cantidad, dv.precio, dv.total, dv.estado from  detalleventas dv
+inner join producto p on p.idproducto = dv.idproducto;*/
+
+CREATE VIEW 
+viewdetalleventadvp AS 
+select dv.iddetalleventas, dv.idfactura, p.idproducto , p.nombre, p.describir,
+dv.cantidad, p.stock, dv.precio, dv.total, dv.estado from  detalleventas dv
 inner join producto p on p.idproducto = dv.idproducto;
 
 /*visualizando productos por unidades*/
@@ -54,7 +60,7 @@ inner join producto p on p.idproducto = m.idproducto;
 /*visualizacion de las promociones en el index*/
 CREATE VIEW 
 viewpromocionesppi AS 
-select p.idproducto, m.idpromociones, p.nombre, m.dto, p.image, m.fechainicio,
+select p.idproducto, m.idpromociones, p.nombre, p.describir, m.dto, p.image, m.fechainicio,
  m.fechafin, m.descripcion, m.estado from promociones m 
 inner join producto p on p.idproducto = m.idproducto;
 
@@ -62,7 +68,7 @@ inner join producto p on p.idproducto = m.idproducto;
 
 CREATE VIEW 
 viewpromocionesppuni AS 
-select m.idpromociones, p.idproducto, p.idcategoria, p.nombre, p.image, p.precio, m.dto, p.stock, p.estado 
+select m.idpromociones, p.idproducto, p.idcategoria, p.nombre, p.describir, p.image, p.precio, m.dto, p.stock, p.estado 
 from promociones m 
 inner join producto p on p.idproducto = m.idproducto;
 
@@ -181,7 +187,7 @@ inner join producto p on p.idproducto = pr.idproducto;
 /*ver los productos con las categorias*/
 create view
 viewproducto as
-select p.idproducto, c.nombre as categoria, p.nombre, p.image, p.precio, p.stock, p.estado  from producto p
+select p.idproducto, c.nombre as categoria, p.nombre, p.describir, p.image, p.precio, p.stock, p.estado  from producto p
 inner join categoria c on c.idcategoria = p.idcategoria;
 
 
