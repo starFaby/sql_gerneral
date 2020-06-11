@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     5/22/2020 09:17:18                           */
+/* Created on:     6/10/2020 21:06:19                           */
 /*==============================================================*/
 
 
@@ -73,7 +73,7 @@ create table direccion
    parroquia            char(15) not null,
    sector               char(100) not null,
    calleprincipal       char(100) not null,
-   numeracion           int not null,
+   numeracion           char(20) not null,
    callesecundaria      char(100) not null,
    descripcion          char(200) not null,
    estado               char(1) not null,
@@ -113,7 +113,7 @@ create table efectivo
 create table factura
 (
    idfactura            int not null auto_increment,
-   idpersona            int,
+   idpersona            int not null,
    numfactura           int not null,
    subtotal             decimal(7,2),
    dto                  int,
@@ -179,6 +179,7 @@ create table producto
    idproducto           int not null auto_increment,
    idcategoria          int,
    nombre               char(60) not null,
+   describir            char(200) not null,
    image                char(100) not null,
    precio               decimal(7,2) not null,
    stock                int not null,

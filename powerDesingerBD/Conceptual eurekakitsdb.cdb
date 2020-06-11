@@ -1931,7 +1931,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:RelationshipSymbol Id="o41">
 <a:CreationDate>1587921674</a:CreationDate>
 <a:ModificationDate>1588164905</a:ModificationDate>
-<a:Rect>((-25037,-9275), (-4281,3125))</a:Rect>
+<a:Rect>((-25037,-9275), (-4281,3123))</a:Rect>
 <a:ListOfPoints>((-4681,2149),(-21362,2149),(-21362,-7875))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4371</a:ArrowStyle>
@@ -1998,7 +1998,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:RelationshipSymbol Id="o50">
 <a:CreationDate>1588164899</a:CreationDate>
 <a:ModificationDate>1588164950</a:ModificationDate>
-<a:Rect>((-1187,3926), (15921,13566))</a:Rect>
+<a:Rect>((-1187,3926), (15921,13564))</a:Rect>
 <a:ListOfPoints>((15521,12599),(2863,12599),(2863,5326))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4371</a:ArrowStyle>
@@ -3537,8 +3537,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ObjectID>515FF296-A3A5-49EA-9B64-BE57F0D8B7D3</a:ObjectID>
 <a:CreationDate>1590111412</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1590111642</a:ModificationDate>
+<a:ModificationDate>1590154458</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
 <o:DataItem Ref="o96"/>
 </c:DataItem>
@@ -3547,8 +3548,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ObjectID>C2DF7DF8-B201-4605-9C5A-68FC6EBBF0D7</a:ObjectID>
 <a:CreationDate>1590111412</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1590111642</a:ModificationDate>
+<a:ModificationDate>1590154458</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
 <o:DataItem Ref="o85"/>
 </c:DataItem>
@@ -3557,8 +3559,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ObjectID>82CC2712-9E3F-40A1-B8C1-547A54C9599E</a:ObjectID>
 <a:CreationDate>1590111412</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1590111642</a:ModificationDate>
+<a:ModificationDate>1590154458</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
 <o:DataItem Ref="o87"/>
 </c:DataItem>
@@ -4482,12 +4485,12 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>logicaleurekakitsdb</a:Code>
 <a:CreationDate>1590153190</a:CreationDate>
 <a:Creator>fabystar</a:Creator>
-<a:ModificationDate>1590154373</a:ModificationDate>
+<a:ModificationDate>1590154188</a:ModificationDate>
 <a:Modifier>fabystar</a:Modifier>
 <a:TargetModelURL>file:///C|/Users/fabystar/Documents/proyectos/TESIS/consultasEurekakits/powerDesingerBD/LogicalEurekakitsdb.ldm</a:TargetModelURL>
 <a:TargetModelID>7B45B66E-FC03-42A7-B6E4-3E3C1CE03009</a:TargetModelID>
 <a:TargetModelClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetModelClassID>
-<a:TargetModelLastModificationDate>1590154188</a:TargetModelLastModificationDate>
+<a:TargetModelLastModificationDate>1590154725</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o17"/>
 </c:SessionShortcuts>
