@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     6/10/2020 21:06:19                           */
+/* Created on:     6/14/2020 17:06:30                           */
 /*==============================================================*/
 
 
@@ -116,7 +116,7 @@ create table factura
    idpersona            int not null,
    numfactura           int not null,
    subtotal             decimal(7,2),
-   dto                  int,
+   dto                  decimal(7,2),
    iva                  decimal(7,2),
    total                decimal(7,2),
    estado               char(1) not null,
